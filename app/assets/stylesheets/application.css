@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ .quote-box{
+  margin: 20px;
+  border-left: .55em solid #DDDDDD;
+  padding: 0px 0px 1.2em 0.75em; /*top right bottom left*/
+ }
+
+ .coach{
+  background-color: #FFFFE1 ;
+ }
+
+ a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hyperlink {
+  margin: 20px;
+	text-decoration: none;
+}

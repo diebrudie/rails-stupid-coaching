@@ -1,11 +1,14 @@
-<h1 class="m-3">Stupid Coach</h1>
+<div class="m-3">
+<h1>Stupid Coach</h1>
 <br>
-<form action="/answer" method="get" class="form-inline m-3">
-  <div class="form-group mb-2 d-inline-flex">
-    <input class="form-control mb-3" type="text" name="question" placeholder="What's your question?" value="<%= params[:question] %>">
+<p>Ask anything to your coach:</p>
+<form action="/answer" method="get" class="form-inline">
+  <div class="d-inline-flex">
+    <input class="form-control mr-1" type="text" name="question" value="<%= params[:question] %>">
     <input class="btn btn-primary" type="submit">
   </div>
 </form>
+</div>
 <%#
 <div>
   <ol>
