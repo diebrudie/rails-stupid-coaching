@@ -1,0 +1,16 @@
+<h1 class="m-3">Stupid Coach</h1>
+<br>
+<form action="/answer" method="get" class="form-inline m-3">
+  <div class="form-group mb-2 d-inline-flex">
+    <input class="form-control mb-3" type="text" name="question" placeholder="What's your question?" value="<%= params[:question] %>">
+    <input class="btn btn-primary" type="submit">
+  </div>
+</form>
+<%#
+<div>
+  <ol>
+    <li>You can ask any question</li>
+    <li>The coach might be helpful, but most probably not.</li>
+    <li>If you want to get a positive reply, just tell the coach "I am going to work"</li>
+  </ol>
+</div> %>
